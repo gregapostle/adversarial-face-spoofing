@@ -64,10 +64,18 @@ Gaussian blurred:    0.5377
 
 ---
 
-## ⚡ Setup
+## ⚡ Setup Instructions
+
+### ☝ Important
+
+Use **Python 3.10**. Newer versions (like 3.12+) may break compatibility with `facenet-pytorch` or `torch`.
+
+### 🔧 Create Environment and Install Requirements
 
 ```bash
-pip install facenet-pytorch foolbox torch torchvision numpy matplotlib opencv-python scikit-learn
+python3.10 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
 ```
 
 ---
